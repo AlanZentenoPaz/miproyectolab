@@ -45,3 +45,4 @@ CREATE TABLE Accion_Admin (
                               FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
                                   ON UPDATE CASCADE ON DELETE CASCADE
 );
+
